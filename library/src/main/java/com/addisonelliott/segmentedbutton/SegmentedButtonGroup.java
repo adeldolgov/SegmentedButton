@@ -287,10 +287,10 @@ public class SegmentedButtonGroup extends LinearLayout
         // Width is the thickness of the border, color is the color of the border
         // Dash width and gap, if the dash width is not zero will make the border dashed with a ratio between dash
         // width and gap
-        borderWidth = ta.getDimensionPixelSize(R.styleable.SegmentedButtonGroup_borderWidth, 0);
-        borderColor = ta.getColor(R.styleable.SegmentedButtonGroup_borderColor, Color.BLACK);
-        borderDashWidth = ta.getDimensionPixelSize(R.styleable.SegmentedButtonGroup_borderDashWidth, 0);
-        borderDashGap = ta.getDimensionPixelSize(R.styleable.SegmentedButtonGroup_borderDashGap, 0);
+        borderWidth = ta.getDimensionPixelSize(R.styleable.SegmentedButtonGroup_segmentedBorderWidth, 0);
+        borderColor = ta.getColor(R.styleable.SegmentedButtonGroup_segmentedBorderColor, Color.BLACK);
+        borderDashWidth = ta.getDimensionPixelSize(R.styleable.SegmentedButtonGroup_segmentedBorderDashWidth, 0);
+        borderDashGap = ta.getDimensionPixelSize(R.styleable.SegmentedButtonGroup_segmentedBorderDashGap, 0);
 
         // Set the border to the read values, this will set the border values to itself but will create a
         // GradientDrawable containing the border
