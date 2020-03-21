@@ -43,10 +43,10 @@
         <attr name="android:background" />
         <attr name="selectedBackground" />
 
-        <attr name="borderWidth" format="dimension" />
-        <attr name="borderColor" format="color" />
-        <attr name="borderDashWidth" format="dimension" />
-        <attr name="borderDashGap" format="dimension" />
+        <attr name="segmentedBorderWidth" format="dimension" />
+        <attr name="segmentedBorderColor" format="color" />
+        <attr name="segmentedBorderDashWidth" format="dimension" />
+        <attr name="segmentedBorderDashGap" format="dimension" />
 
         <attr name="selectedBorderWidth" format="dimension" />
         <attr name="selectedBorderColor" format="color" />
